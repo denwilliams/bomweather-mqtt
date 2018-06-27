@@ -1,0 +1,6 @@
+mqtt:
+  uri: mqtt://localhost
+  prefix: bomweather/
+service:
+  observations_url: 'http://reg.bom.gov.au/fwo/IDV60901/IDV60901.95866.json'
+  forecast_url: ''

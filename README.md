@@ -1,2 +1,16 @@
 # bomweather-mqtt
+
 Publishes weather from Bureau of Meteorology Australia over MQTT.
+
+Checks every 10 minutes and publishes to `prefix/current`.
+
+## Example Config
+
+```
+mqtt:
+  uri: mqtt://localhost
+  prefix: sunlight/
+service:
+  latitude: -37.814
+  longitude: 144.96332
+```
