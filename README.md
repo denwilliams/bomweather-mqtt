@@ -9,7 +9,7 @@ Checks every 10 minutes and publishes to `prefix/current`.
 ```
 mqtt:
   uri: mqtt://localhost
-  prefix: sunlight/
+  prefix: bomweather/
 service:
   latitude: -37.814
   longitude: 144.96332
