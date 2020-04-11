@@ -14,3 +14,9 @@ service:
   latitude: -37.814
   longitude: 144.96332
 ```
+
+## Running
+
+```
+CONFIG_PATH=/path/to/config.yml bomweather-mqtt
+```
