@@ -19,7 +19,7 @@ async function main() {
         humidity: observation.rel_hum
       };
 
-      service.send("current", current, { retain: true });
+      service.send("~/current", current, { retain: true });
     });
     // TODO: error handling
   };
