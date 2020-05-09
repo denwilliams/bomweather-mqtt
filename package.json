@@ -1,6 +1,6 @@
 {
   "name": "bomweather-mqtt",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Publishes weather from Bureau of Meteorology Australia over MQTT.",
   "main": "index.js",
   "scripts": {
