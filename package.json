@@ -2,7 +2,7 @@
   "name": "bomweather-mqtt",
   "version": "0.3.0",
   "description": "Publishes weather from Bureau of Meteorology Australia over MQTT.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,9 @@
     "got": "^11.8.5",
     "mqtt-usvc": "^3.1.0",
     "prom-client": "^14.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.15",
+    "postject": "^1.0.0-alpha.6"
   }
 }
